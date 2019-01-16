@@ -37,7 +37,7 @@ install(
 
 install(
     DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/source/
-    DESTINATION include
+    DESTINATION include/utf8
     FILES_MATCHING PATTERN "*.h"
 )
 
